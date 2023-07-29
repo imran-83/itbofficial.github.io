@@ -1,0 +1,138 @@
+@media screen and (max-width: 800px){
+  
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    
+    .logo{
+        flex-direction: column;
+        margin-left: 56px;
+    }
+    img{
+      width: 40%;
+      margin-top: 25px;
+    }
+    
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+        transition: all 0.4s ease-out;
+        height: 350px;
+        position: relative;
+        width: 100%;
+        display: flex;
+        background-color: #070707;
+        top: 0;
+        cursor: pointer;
+    }
+  
+    .navlist{
+        flex-direction: column;
+        text-align: center;
+        margin-left: 188px;
+    }
+    .navlist li{
+      margin: 15px;
+    }
+    
+    .navlist li a {
+      text-decoration: none;
+      color: aliceblue;
+      font-size: 20px;
+      margin: 0px;
+    }  
+    .burger{
+      display: block;
+      margin-top: 25px;
+    } 
+    .h-nav{
+      height: 150px;
+    }
+    .v-class{
+      opacity: 0px;
+      visibility: hidden;
+    }
+    .kk{
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+    }
+    .item {
+      flex: 1;
+      padding: 10px;
+      background-color: #d61b6c;
+      border: 5px solid #070707;
+    }
+    footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .footer-links {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    
+    .footer-links li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    
+    .footer-links li a {
+      color: #555555;
+      text-decoration: none;
+    }
+  
+    .footer-content {
+        max-width: 600px;
+      }
+    
+    .background{
+      background-color: rgb(0, 0, 0, 0.7);
+      background-image: url('img/1200717.jpg');
+      background-size: cover;
+      background-blend-mode: darken; 
+    }
+    
+    .fmain{
+      height: 700px;
+  
+    }
+    .hf1{
+      opacity: 100;
+      font-size: 20px;
+      margin-top: 100px;
+    }
+    .term{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 1s ease-out;
+      font-size: 20px;
+    }
+    .ct{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 1s ease-out;
+      font-size: 20px;
+      background-color: #b4b1b1;
+    }
+  }
+    
+  
+    
